@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Display the content of the current directory start from the listing after the -
+for file in *
+do 
+if [[ "$file" == *-* ]]
+then 
+echo "$file" | cut -d "-" -f 2-
+fi
+done
