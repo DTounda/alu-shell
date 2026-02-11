@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Display the list of current running processe with the name bash
+ps auxf | grep "bash"
