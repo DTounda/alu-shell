@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # Terminating the process of displaying to infinity and beyond
+# shellcheck disable=SC2046
 kill $(pgrep -f 4-to_infinity_and_beyond)
